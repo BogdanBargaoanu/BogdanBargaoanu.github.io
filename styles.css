@@ -5,6 +5,8 @@
     --description-color: #aaaaaa;
     --button-pressed-color: #696969;
     --image-box-background: rgb(241, 241, 241);
+    --contact-color-active: rgb(0, 0, 196);
+    --contact-color-hover: rgb(114, 114, 255);
 }
 
 html {
@@ -300,6 +302,22 @@ footer {
 .red {
     color: red;
 }
+
+#contact-link {
+    font-size: 1.5rem;
+}
+
+.blue {
+    color: blue;
+    text-decoration: underline;
+}
+.blue:hover {
+    color: var(--contact-color-hover);
+}
+.blue:active {
+    color: var(--contact-color-active);
+}
+
 
 #logo {
     display: block;
