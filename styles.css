@@ -267,7 +267,8 @@ footer {
 #li2,
 #li3,
 #title,
-#info {
+#info,
+#logo {
     animation: slide-up-fade-in 0.5s ease;
 }
 
