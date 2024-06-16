@@ -64,10 +64,19 @@ body {
     margin-bottom: 0.5rem;
 }
 
-a {
+a:not(.remove-style) {
     color: var(--text-color1);
     text-decoration: none;
     font-size: 2rem;
+}
+
+.remove-style {
+    color: var(--text-color1);
+    text-decoration: none;
+}
+
+.remove-style:hover {
+    color: var(--contact-color-hover);
 }
 
 h1 {
@@ -128,6 +137,10 @@ section {
 
 .last-paragraph {
     margin-bottom: 3.5rem;
+}
+
+.last-paragraph-reverse {
+    margin-bottom: -2rem;
 }
 
 .image-container-servicii {
@@ -285,6 +298,7 @@ footer {
 }
 
 #servicii {
+    padding-top: 6rem;
     animation: slide-up-fade-in 1.5s ease;
 }
 
