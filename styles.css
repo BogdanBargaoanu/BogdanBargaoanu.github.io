@@ -64,15 +64,19 @@ body {
     margin-bottom: 0.5rem;
 }
 
+a {
+    font-size: 2rem;
+}
+
 a:not(.remove-style) {
     color: var(--text-color1);
     text-decoration: none;
-    font-size: 2rem;
 }
 
 .remove-style {
     color: var(--text-color1);
     text-decoration: none;
+    font-size: 12px;
 }
 
 .remove-style:hover {
