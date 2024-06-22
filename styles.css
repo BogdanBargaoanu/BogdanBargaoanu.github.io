@@ -234,6 +234,10 @@ section {
         height: 300px;
     }
 
+    .content-container {
+        margin-left: 20px;
+    }
+
     #despre-noi p,
     #contact p {
         margin-left: 1rem;
